@@ -5,7 +5,6 @@ Date: Feb 5-8, 2018
 
 Location: International Rice Research Institute (IRRI) Headquarters, Philippines
 
-=====================
 What is this?
 =====================
 

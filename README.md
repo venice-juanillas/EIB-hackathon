@@ -6,12 +6,12 @@ Date: Feb 5-8, 2018
 Location: International Rice Research Institute (IRRI) Headquarters, Philippines
 
 ### What this repository contains ###
-=====================
+=====================================
 
 This site is a repository of all collected output from the hackathon. This includes tools as well as datasets used.
 
 ### Goals of the hackathon: ###
-======================
+==============================
 
 * Solve important bioinformatics or biometrics problems in breeding
 
@@ -20,7 +20,7 @@ This site is a repository of all collected output from the hackathon. This inclu
 * Catalyze interaction between breeders and data analysts 
 
 ### Problems to solve: ###
-====================
+==========================
 
 1. Organizing existing R scripts into a library, integrate it into Galaxy, optimize them (parallelize)
 

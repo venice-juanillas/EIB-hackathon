@@ -14,14 +14,20 @@ Goals:
 ====================
 
 Markup : * Solve important bioinformatics or biometrics problems in breeding
+
 	 * Facilitate interaction between developers 
+
 	 * Catalyze interaction between breeders and data analysts 
 
 Problems to solve:
 ====================
 
 Markup : 1. Organizing existing R scripts into a library, integrate it into Galaxy, optimize them (parallelize)
+
 	 2. Add imputation (of any choice, eg., NPUTE, beagle, FSFhapmap) and Haplotype bin mapping in the Galaxy toolsheds in order to improve specificity/sensitivity of Genomic Selection pipeline
+
 	 3. Marker subsets: Take large SNP data sets produced from GBS or similar and reducing them to a panel of useful markers for selection
+
 	 4. Program to identify closest genotypes and genotypes with favorable allele/haplotype
+
 	 5. Identifying genetic duplicates and cut offs for determining duplicates

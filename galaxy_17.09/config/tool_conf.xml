@@ -156,31 +156,31 @@
 <!--    <tool file="gh1_tools/FindDuplicates.xml"/> -->
 
     <label id="gh2" text="GH2: Imputation Tools"/>
-    <tool file="problem2_tools/beagle_tool/beagle.xml" />
-    <tool file="problem2_tools/impute_tool/impute.xml" />
-    <tool file="problem2_tools/hapmap_to_vcf_tool/hapmap_to_vcf.xml" />
-    <tool file="problem2_tools/vcf_to_hapmap_tool/vcf_to_hapmap.xml" />
-    <tool file="problem2_tools/makeNPUTEinput/makeNPUTEinput.xml" />
-    <tool file="problem2_tools/npute/NPUTE.xml" />
-    <tool file="problem2_tools/makeHMPfromNPUTEoutput/makeHMPfromNPUTEoutput.xml"/>
-    <tool file="problem2_tools/validation/imputeValidation.xml"/>
-    <tool file="problem2_tools/simulate_missing/set_random_missing.xml" />
+    <tool file="gh2_tools/beagle_tool/beagle.xml" />
+    <tool file="gh2_tools/impute_tool/impute.xml" />
+    <tool file="gh2_tools/hapmap_to_vcf_tool/hapmap_to_vcf.xml" />
+    <tool file="gh2_tools/vcf_to_hapmap_tool/vcf_to_hapmap.xml" />
+    <tool file="gh2_tools/makeNPUTEinput/makeNPUTEinput.xml" />
+    <tool file="gh2_tools/npute/NPUTE.xml" />
+    <tool file="gh2_tools/makeHMPfromNPUTEoutput/makeHMPfromNPUTEoutput.xml"/>
+    <tool file="gh2_tools/validation/imputeValidation.xml"/>
+    <tool file="gh2_tools/simulate_missing/set_random_missing.xml" />
 
     <label id="gh3" text="GH3: Purity"/> 
-    <tool file="hackathon_problem3/sampleSNPs/sampleSNPs.xml" />
-    <tool file="hackathon_problem3/sampleLD/sampleLD.xml" />
-    <tool file="hackathon_problem3/purity/purity.xml" />
-    <tool file="hackathon_problem3/purity/purity_beta.xml" />
-    <tool file="hackathon_problem3/plink_ld_prune/plink_ld_prune.xml" />
-    <tool file="hackathon_problem3/plink_vcf2bed/plink_vcf2bed.xml" />
+    <tool file="gh3_tools/sampleSNPs/sampleSNPs.xml" />
+    <tool file="gh3_tools/sampleLD/sampleLD.xml" />
+    <tool file="gh3_tools/purity/purity.xml" />
+    <tool file="gh3_tools/purity/purity_beta.xml" />
+    <tool file="gh3_tools/plink_ld_prune/plink_ld_prune.xml" />
+    <tool file="gh3_tools/plink_vcf2bed/plink_vcf2bed.xml" />
     <label id="gh4" text="GH4: Finding Closest Genotype and Format Conversion Tools"/> 
-    <tool file="plink_conversion/binary2ped.xml" />
-    <tool file="plink_conversion/binary2vcf.xml" />
-    <tool file="tassel_conversion/hapmap2plink.xml" />
-    <tool file="tassel_conversion/hapmap2vcf.xml" />
+    <tool file="gh4_tools/binary2ped.xml" />
+    <tool file="gh4_tools/binary2vcf.xml" />
+    <tool file="gh4_tools/hapmap2plink.xml" />
+    <tool file="gh4_tools/hapmap2vcf.xml" />
 
     <label id="gh5" text="GH5: Finding Duplicates"/>
-    <tool file="ts_tools/FindDuplicates.xml" />
+    <tool file="gh5_tools/FindDuplicates.xml" />
   </section>
   <section id="htpg-tools" name="HTPG Tools">
     <tool file="intertek-Fj_v1/Intertek-Fj_converter.xml"/>
@@ -189,7 +189,7 @@
   <section id="bglr-tools" name="BGLR Tools">
     <tool file="BGLR_Galaxy/bglr_encode.xml"/>
     <tool file="BGLR_Galaxy/bglr_validate.xml"/>
-    <tool file="problem2_tools/bglr_tool/bglr.xml"/>
+    <tool file="gh2_tools/bglr_tool/bglr.xml"/>
   </section>
 
 </toolbox>

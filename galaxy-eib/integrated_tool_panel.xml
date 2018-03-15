@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<toolbox>
+    <!--
+    This is Galaxy's integrated tool panel and should be modified directly only for
+    reordering tools inside a section. Each time Galaxy starts up, this file is
+    synchronized with the various tool config files: tools, sections and labels
+    added to one of these files, will be added also here in the appropriate place,
+    while elements removed from the tool config files will be correspondingly
+    deleted from this file.
+    To modify locally managed tools (e.g. from tool_conf.xml) modify that file
+    directly and restart Galaxy. Whenever possible Tool Shed managed tools (e.g.
+    from shed_tool_conf.xml) should be managed from within the Galaxy interface or
+    via its API - but if changes are necessary (such as to hide a tool or re-assign
+    its section) modify that file and restart Galaxy.
+    -->
+    <section id="getext" name="Get Data" version="">
+        <tool id="upload1" />
+    </section>
+    <section id="liftOver" name="Lift-Over" version="">
+    </section>
+    <section id="textutil" name="Text Manipulation" version="">
+        <tool id="addValue" />
+        <tool id="cat1" />
+        <tool id="Cut1" />
+        <tool id="mergeCols1" />
+        <tool id="Convert characters1" />
+        <tool id="createInterval" />
+        <tool id="ChangeCase" />
+        <tool id="Paste1" />
+        <tool id="Remove beginning1" />
+        <tool id="random_lines1" />
+        <tool id="Show beginning1" />
+        <tool id="Show tail1" />
+        <tool id="trimmer" />
+        <tool id="wc_gnu" />
+        <tool id="secure_hash_message_digest" />
+    </section>
+    <section id="collection_operations" name="Collection Operations" version="">
+        <tool id="__UNZIP_COLLECTION__" />
+        <tool id="__ZIP_COLLECTION__" />
+        <tool id="__FILTER_FAILED_DATASETS__" />
+        <tool id="__FLATTEN__" />
+        <tool id="__MERGE_COLLECTION__" />
+        <tool id="__RELABEL_FROM_FILE__" />
+        <tool id="__FILTER_FROM_FILE__" />
+        <tool id="__SORTLIST__" />
+    </section>
+    <section id="filter" name="Filter and Sort" version="">
+        <tool id="Filter1" />
+        <tool id="sort1" />
+        <tool id="Grep1" />
+        <label id="gff" text="GFF" version="" />
+        <tool id="Extract_features1" />
+        <tool id="gff_filter_by_attribute" />
+        <tool id="gff_filter_by_feature_count" />
+        <tool id="gtf_filter_by_attribute_values_list" />
+    </section>
+    <section id="group" name="Join, Subtract and Group" version="">
+        <tool id="join1" />
+        <tool id="comp1" />
+        <tool id="Grouping1" />
+    </section>
+    <section id="features" name="Extract Features" version="">
+        <tool id="gene2exon1" />
+    </section>
+    <section id="fetchSeq" name="Fetch Sequences" version="">
+        <tool id="Extract genomic DNA 1" />
+    </section>
+    <section id="fetchAlign" name="Fetch Alignments" version="">
+        <tool id="Interval2Maf_pairwise1" />
+        <tool id="Interval2Maf1" />
+        <tool id="MAF_split_blocks_by_species1" />
+        <tool id="Interval_Maf_Merged_Fasta2" />
+        <tool id="GeneBed_Maf_Fasta2" />
+        <tool id="maf_stats1" />
+        <tool id="MAF_Thread_For_Species1" />
+        <tool id="MAF_Limit_To_Species1" />
+        <tool id="maf_limit_size1" />
+        <tool id="maf_by_block_number1" />
+        <tool id="MAF_Reverse_Complement_1" />
+        <tool id="MAF_filter" />
+    </section>
+    <section id="stats" name="Statistics" version="">
+        <tool id="Summary_Statistics1" />
+        <tool id="Count1" />
+    </section>
+    <section id="plots" name="Graph/Display Data" version="">
+        <tool id="barchart_gnuplot" />
+        <tool id="qual_stats_boxplot" />
+        <tool id="vcf_to_maf_customtrack1" />
+    </section>
+    <section id="VCF_intersect" name="VCF intersect" version="">
+        <tool id="vcf_intersect" />
+    </section>
+    <label id="gobii-eib" text="GOBII-EiB" version="" />
+    <section id="eib-tools" name="Excellence in Breeding Tools " version="">
+        <label id="gh1" text="GH1: R Tools" version="" />
+        <tool id="Sum2Ints" />
+        <tool id="getARM" />
+        <tool id="getGenosTextBin" />
+        <tool id="recodeGenosTextBin" />
+        <tool id="cleanImpute" />
+        <tool id="fitLM" />
+        <tool id="ReactionNorm" />
+        <tool id="pedigreeRelationship" />
+        <tool id="sampleCDmean" />
+        <tool id="CVST" />
+        <label id="gh2" text="GH2: Imputation Tools" version="" />
+        <tool id="Beagle" />
+        <tool id="Impute2" />
+        <tool id="HapMap_To_VCF" />
+        <tool id="VCF_To_HapMap" />
+        <tool id="makeNPUTEinput" />
+        <tool id="NPUTE" />
+        <tool id="makeHMPfromNPUTEoutput" />
+        <tool id="Impute Validataion" />
+        <tool id="set_random_missing_calls" />
+        <label id="gh3" text="GH3: Purity" version="" />
+        <tool id="sampleSNPs_1" />
+        <tool id="sampleLD_1" />
+        <tool id="purity_1" />
+        <tool id="purity_beta" />
+        <tool id="plink_ld_prune" />
+        <tool id="plink_vcf2bed" />
+        <label id="gh4" text="GH4: Finding Closest Genotype and Format Conversion Tools" version="" />
+        <tool id="plink:bed-to-ped" />
+        <tool id="plink:bed-to-vcf" />
+        <label id="gh5" text="GH5: Finding Duplicates" version="" />
+        <tool id="FindDuplicates" />
+    </section>
+    <section id="htpg-tools" name="HTPG Tools" version="">
+        <tool id="Intertek-Fj-converter" />
+        <tool id="excel-txt_extractor" />
+    </section>
+    <section id="bglr-tools" name="BGLR Tools" version="">
+        <tool id="bglr:encode" />
+        <tool id="bglr:validate" />
+        <tool id="Bayessian_Generalized_Linear_Regression" />
+    </section>
+</toolbox>

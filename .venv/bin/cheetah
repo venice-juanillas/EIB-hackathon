@@ -1,0 +1,3 @@
+#!/home/galaxy/data/galaxy_17.09/.venv/bin/python2.7
+from Cheetah.CheetahWrapper import _cheetah
+_cheetah()

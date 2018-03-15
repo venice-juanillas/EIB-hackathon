@@ -1,0 +1,33 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/linux-64",
+  "date": "2017-07-31",
+  "depends": [
+    "python 3.5*"
+  ],
+  "files": [
+    "lib/python3.5/site-packages/__pycache__/pyparsing.cpython-35.pyc",
+    "lib/python3.5/site-packages/pyparsing-2.2.0-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/pyparsing-2.2.0-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/pyparsing-2.2.0-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/pyparsing-2.2.0-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/pyparsing.py"
+  ],
+  "fn": "pyparsing-2.2.0-py35_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/galaxy/data/galaxy_17.09/database/dependencies/_conda/pkgs/pyparsing-2.2.0-py35_0",
+    "type": "hard-link"
+  },
+  "md5": "507d62211bba69eff4d3391ce060df19",
+  "name": "pyparsing",
+  "platform": "linux",
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 98798,
+  "subdir": "linux-64",
+  "url": "https://repo.continuum.io/pkgs/free/linux-64/pyparsing-2.2.0-py35_0.tar.bz2",
+  "version": "2.2.0"
+}

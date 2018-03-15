@@ -1,0 +1,49 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/free/linux-64",
+  "date": "2017-05-16",
+  "depends": [
+    "cryptography >=1.7",
+    "python 3.5*",
+    "six >=1.5.2"
+  ],
+  "files": [
+    "lib/python3.5/site-packages/OpenSSL/SSL.py",
+    "lib/python3.5/site-packages/OpenSSL/__init__.py",
+    "lib/python3.5/site-packages/OpenSSL/__pycache__/SSL.cpython-35.pyc",
+    "lib/python3.5/site-packages/OpenSSL/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/OpenSSL/__pycache__/_util.cpython-35.pyc",
+    "lib/python3.5/site-packages/OpenSSL/__pycache__/crypto.cpython-35.pyc",
+    "lib/python3.5/site-packages/OpenSSL/__pycache__/rand.cpython-35.pyc",
+    "lib/python3.5/site-packages/OpenSSL/__pycache__/tsafe.cpython-35.pyc",
+    "lib/python3.5/site-packages/OpenSSL/__pycache__/version.cpython-35.pyc",
+    "lib/python3.5/site-packages/OpenSSL/_util.py",
+    "lib/python3.5/site-packages/OpenSSL/crypto.py",
+    "lib/python3.5/site-packages/OpenSSL/rand.py",
+    "lib/python3.5/site-packages/OpenSSL/tsafe.py",
+    "lib/python3.5/site-packages/OpenSSL/version.py",
+    "lib/python3.5/site-packages/pyOpenSSL-17.0.0-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/pyOpenSSL-17.0.0-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/pyOpenSSL-17.0.0-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/pyOpenSSL-17.0.0-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/pyOpenSSL-17.0.0-py3.5.egg-info/top_level.txt"
+  ],
+  "fn": "pyopenssl-17.0.0-py35_0.tar.bz2",
+  "license": "Apache Software License",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/galaxy/data/galaxy_17.09/database/dependencies/_conda/pkgs/pyopenssl-17.0.0-py35_0",
+    "type": "hard-link"
+  },
+  "md5": "f6f8bd74a2daf5515a091b1721a49260",
+  "name": "pyopenssl",
+  "platform": "linux",
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 77664,
+  "subdir": "linux-64",
+  "url": "https://repo.continuum.io/pkgs/free/linux-64/pyopenssl-17.0.0-py35_0.tar.bz2",
+  "version": "17.0.0"
+}

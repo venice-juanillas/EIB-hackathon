@@ -1,3 +1,665 @@
 <?xml version="1.0"?>
 <toolbox tool_path="../shed_tools">
+<label id="from_toolshed" text="Tools from Toolshed" />
+
+
+<section id="rave" name="RAVE" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/gdroc/rave/dabf0a44251a/rave/rave.xml" guid="toolshed.g2.bx.psu.edu/repos/gdroc/rave/rave/1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>rave</repository_name>
+        <repository_owner>gdroc</repository_owner>
+        <installed_changeset_revision>dabf0a44251a</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/gdroc/rave/rave/1.0</id>
+        <version>1.0</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/9e8280e19338/snpsift/snpSift_caseControl.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_caseControl/4.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpsift</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>9e8280e19338</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_caseControl/4.0.0</id>
+        <version>4.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/9e8280e19338/snpsift/snpSift_filter.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_filter/4.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpsift</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>9e8280e19338</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_filter/4.0.0</id>
+        <version>4.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/9e8280e19338/snpsift/snpSift_int.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_int/4.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpsift</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>9e8280e19338</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_int/4.0.0</id>
+        <version>4.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/9e8280e19338/snpsift/snpSift_vartype.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpsift_vartype/4.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpsift</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>9e8280e19338</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpsift_vartype/4.0.0</id>
+        <version>4.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/9e8280e19338/snpsift/snpSift_rmInfo.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_rmInfo/4.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpsift</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>9e8280e19338</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_rmInfo/4.0.0</id>
+        <version>4.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/9e8280e19338/snpsift/snpSift_annotate.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_annotate/4.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpsift</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>9e8280e19338</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_annotate/4.0.0</id>
+        <version>4.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/9e8280e19338/snpsift/snpSift_vcfCheck.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_vcfCheck/4.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpsift</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>9e8280e19338</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/snpsift/snpSift_vcfCheck/4.0.0</id>
+        <version>4.0.0</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/mlmm/6b7107812931/mlmm/mlmm/MLMM.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/mlmm/mlmm/1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>mlmm</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>6b7107812931</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/mlmm/mlmm/1.0</id>
+        <version>1.0</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/tassel5/d8a46ae7ee8a/tassel5/tassel/tassel.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/tassel5/Tassel/5.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>tassel5</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>d8a46ae7ee8a</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/tassel5/Tassel/5.0</id>
+        <version>5.0</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/snpeff_from_gff_vcf/abde5b0387c8/snpeff_from_gff_vcf/snpEff.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/snpeff_from_gff_vcf/snpEff/4.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>snpeff_from_gff_vcf</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>abde5b0387c8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/snpeff_from_gff_vcf/snpEff/4.0</id>
+        <version>4.0</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/b762ecbe2314/vcftools_filter_stats_diversity/VCFToolsSlidingWindow/vcfToolsSlidingWindow.xml" guid="toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/sniplay_vcftoolsslidingwindow/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>vcftools_filter_stats_diversity</repository_name>
+        <repository_owner>gandres</repository_owner>
+        <installed_changeset_revision>b762ecbe2314</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/sniplay_vcftoolsslidingwindow/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/b762ecbe2314/vcftools_filter_stats_diversity/VCFToolsStats/vcfToolsStats.xml" guid="toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/sniplay_vcftoolsstats/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>vcftools_filter_stats_diversity</repository_name>
+        <repository_owner>gandres</repository_owner>
+        <installed_changeset_revision>b762ecbe2314</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/sniplay_vcftoolsstats/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/b762ecbe2314/vcftools_filter_stats_diversity/VCFToolFilter/vcfToolsFilter.xml" guid="toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/sniplay_vcftoolsfilter/1.1.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>vcftools_filter_stats_diversity</repository_name>
+        <repository_owner>gandres</repository_owner>
+        <installed_changeset_revision>b762ecbe2314</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/gandres/vcftools_filter_stats_diversity/sniplay_vcftoolsfilter/1.1.2</id>
+        <version>1.1.2</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/gandres/fastme/df98a0425c8d/fastme/fastme.xml" guid="toolshed.g2.bx.psu.edu/repos/gandres/fastme/sniplay_fastme/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>fastme</repository_name>
+        <repository_owner>gandres</repository_owner>
+        <installed_changeset_revision>df98a0425c8d</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/gandres/fastme/sniplay_fastme/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/gandres/readseq/b38275a23ce0/readseq/readseq.xml" guid="toolshed.g2.bx.psu.edu/repos/gandres/readseq/sniplay_readseq/1.0.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>readseq</repository_name>
+        <repository_owner>gandres</repository_owner>
+        <installed_changeset_revision>b38275a23ce0</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/gandres/readseq/sniplay_readseq/1.0.2</id>
+        <version>1.0.2</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/admixture/c3ebf600f975/admixture/admixture.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/admixture/admixture/1.23">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>admixture</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>c3ebf600f975</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/admixture/admixture/1.23</id>
+        <version>1.23</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/egglib/CalculateDiversityIndexes.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/calculate_diversity/2.1.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/calculate_diversity/2.1.6</id>
+        <version>2.1.6</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/hapmap2mlmm/HapmapToMLMMFiles.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/hapmap_to_mlmm_files/1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/hapmap_to_mlmm_files/1.1</id>
+        <version>1.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/SNP_density/calculateSlidingWindowsSNPdensitiesFromHapMap_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_density/1.3.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_density/1.3.0</id>
+        <version>1.3.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/check_gwas_inputs/CheckGWASInputs.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/check_GWAS_inputs/1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/check_GWAS_inputs/1.0</id>
+        <version>1.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/Rooting/rooting.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_rooting/1.0.2">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_rooting/1.0.2</id>
+        <version>1.0.2</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/PedToFasta/pedToFasta.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_pedToFasta/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_pedToFasta/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/VCF2Hapmap/vcf2FastaAndHapmap.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_vcf2fastaandhapmap/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_vcf2fastaandhapmap/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/ped2bed/ped2bed.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/ped2bed/1.24">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/ped2bed/1.24</id>
+        <version>1.24</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/10627af23f10/sniplay/MDSplot/mdsplot.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_mdsplot/1.1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>10627af23f10</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_mdsplot/1.1.1</id>
+        <version>1.1.1</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/egglib/CalculateDiversityIndexes.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/calculate_diversity/2.1.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/calculate_diversity/2.1.6</id>
+        <version>2.1.6</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/hapmap2mlmm/HapmapToMLMMFiles.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/hapmap_to_mlmm_files/1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/hapmap_to_mlmm_files/1.1</id>
+        <version>1.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/SNP_density/calculateSlidingWindowsSNPdensitiesFromVCF_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_density/2.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_density/2.0.0</id>
+        <version>2.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/check_gwas_inputs/CheckGWASInputs.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/check_GWAS_inputs/1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/check_GWAS_inputs/1.1</id>
+        <version>1.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/PedToFasta/pedToFasta.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_pedToFasta/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_pedToFasta/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/VCF2Hapmap/vcf2FastaAndHapmap.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_vcf2fastaandhapmap/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_vcf2fastaandhapmap/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/AnnotationStatsFromVCF/annotationStatsFromVCF_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/annotationStatsFromVCF/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/annotationStatsFromVCF/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/MDSplot/mdsplot.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_mdsplot/1.2.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_mdsplot/1.2.0</id>
+        <version>1.2.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/Rooting/rooting.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_rooting/1.0.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_rooting/1.0.3</id>
+        <version>1.0.3</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/ped2bed/ped2bed.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/ped2bed/1.24">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/ped2bed/1.24</id>
+        <version>1.24</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/24336e3d3dd8/sniplay/GetHaplotypesFromPhasedVCF/getHaplotypesFromPhasedVCF.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/getHaplotypesFromPhasedVCF/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>24336e3d3dd8</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/getHaplotypesFromPhasedVCF/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="blast+" name="BLAST+" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_makeprofiledb.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeprofiledb/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeprofiledb/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_blastp_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_blastdbcmd_info.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastdbcmd_info/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastdbcmd_info/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_tblastx_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastx_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastx_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_blastn_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_segmasker_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_segmasker_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_segmasker_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_blastx_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_dustmasker_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_dustmasker_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_dustmasker_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_rpstblastn_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_rpstblastn_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_rpstblastn_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/blastxml_to_tabular.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/blastxml_to_tabular/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/blastxml_to_tabular/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_makeblastdb.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_blastdbcmd_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastdbcmd_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastdbcmd_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_convert2blastmask_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_convert2blastmask_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_convert2blastmask_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_tblastn_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastn_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastn_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/ncbi_blast_plus/tools/ncbi_blast_plus/ncbi_rpsblast_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_rpsblast_wrapper/0.2.01">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>ncbi_blast_plus</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_rpsblast_wrapper/0.2.01</id>
+        <version>0.2.01</version>
+    </tool>
+</section>
+
+<section id="bcftools" name="bcftools" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/iuc/bcftools_isec/c803c34361e0/bcftools_isec/bcftools_isec.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/bcftools_isec/bcftools_isec/1.4.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>bcftools_isec</repository_name>
+        <repository_owner>iuc</repository_owner>
+        <installed_changeset_revision>c803c34361e0</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/iuc/bcftools_isec/bcftools_isec/1.4.0</id>
+        <version>1.4.0</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/plink/6d1122b57344/plink/plink.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/plink/sniplay_plink/1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>plink</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>6d1122b57344</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/plink/sniplay_plink/1.0</id>
+        <version>1.0</version>
+    </tool>
+</section>
+
+<section id="vcftools" name="VCFTOOLS" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/devteam/vcftools_merge/71e19ddf52f5/vcftools_merge/vcftools_merge.xml" guid="toolshed.g2.bx.psu.edu/repos/devteam/vcftools_merge/vcftools_merge/0.1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>vcftools_merge</repository_name>
+        <repository_owner>devteam</repository_owner>
+        <installed_changeset_revision>71e19ddf52f5</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/devteam/vcftools_merge/vcftools_merge/0.1.1</id>
+        <version>0.1.1</version>
+    </tool>
+</section>
+
+<section id="sniplay" name="SNIPLAY" version="">
+  <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/egglib/CalculateDiversityIndexes.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/calculate_diversity/2.1.6">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/calculate_diversity/2.1.6</id>
+        <version>2.1.6</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/hapmap2mlmm/HapmapToMLMMFiles.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/hapmap_to_mlmm_files/1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/hapmap_to_mlmm_files/1.1</id>
+        <version>1.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/SNP_density/calculateSlidingWindowsSNPdensitiesFromVCF_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_density/2.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_density/2.0.0</id>
+        <version>2.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/check_gwas_inputs/CheckGWASInputs.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/check_GWAS_inputs/1.1">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/check_GWAS_inputs/1.1</id>
+        <version>1.1</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/PedToFasta/pedToFasta.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_pedToFasta/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_pedToFasta/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/VCF2Hapmap/vcf2FastaAndHapmap.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_vcf2fastaandhapmap/1.1.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_vcf2fastaandhapmap/1.1.0</id>
+        <version>1.1.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/AnnotationStatsFromVCF/annotationStatsFromVCF_wrapper.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/annotationStatsFromVCF/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/annotationStatsFromVCF/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/MDSplot/mdsplot.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_mdsplot/1.2.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_mdsplot/1.2.0</id>
+        <version>1.2.0</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/Rooting/rooting.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_rooting/1.0.3">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/sniplay_rooting/1.0.3</id>
+        <version>1.0.3</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/ped2bed/ped2bed.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/ped2bed/1.24">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/ped2bed/1.24</id>
+        <version>1.24</version>
+    </tool>
+    <tool file="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/98c37a5d67f4/sniplay/GetHaplotypesFromPhasedVCF/getHaplotypesFromPhasedVCF.xml" guid="toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/getHaplotypesFromPhasedVCF/1.0.0">
+      <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>sniplay</repository_name>
+        <repository_owner>dereeper</repository_owner>
+        <installed_changeset_revision>98c37a5d67f4</installed_changeset_revision>
+        <id>toolshed.g2.bx.psu.edu/repos/dereeper/sniplay/getHaplotypesFromPhasedVCF/1.0.0</id>
+        <version>1.0.0</version>
+    </tool>
+</section>
+
+<section id="htpg-tools" name="HTPG Tools" version="">
+  <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/fj2hdf5.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_fj2hdf5/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_fj2hdf5/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/transpose.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_transpose/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_transpose/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/hapmap2fj.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_hapmap2fj/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_hapmap2fj/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/createproject.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_createproject/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_createproject/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/creatematrix.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_creatematrix/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_creatematrix/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/pedverf1stats.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_pedverstats/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_pedverstats/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/favalleleheadercreator.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/intertek_flapjack_snp_sample_processor/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/intertek_flapjack_snp_sample_processor/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/splitbysample.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_split_by_sample/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_split_by_sample/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/mabcstats.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_mabcstats/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_mabcstats/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+    <tool file="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/348ad93dab47/flapjack/hdf52fj.xml" guid="testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_hdf52fj/0.0.1">
+      <tool_shed>testtoolshed.g2.bx.psu.edu</tool_shed>
+        <repository_name>flapjack</repository_name>
+        <repository_owner>cropgeeks</repository_owner>
+        <installed_changeset_revision>348ad93dab47</installed_changeset_revision>
+        <id>testtoolshed.g2.bx.psu.edu/repos/cropgeeks/flapjack/flapjack_hdf52fj/0.0.1</id>
+        <version>0.0.1</version>
+    </tool>
+</section>
+
 </toolbox>

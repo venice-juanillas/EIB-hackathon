@@ -11,3 +11,8 @@
 ./galaxy-eib/tools/purity/purity_171218.jar
 ./galaxy-eib/tools/gh3_tools/purity/purity_180206.jar
 ./galaxy-eib/tools/gh3_tools/purity/purity_171218.jar
+./.git/objects/pack/pack-34e654768be3582e693ecd5841e7eb0c3607b862.pack
+./galaxy-eib/tools/tassel/output
+./galaxy-eib/database/*
+./.git/objects/pack/pack-34e654768be3582e693ecd5841e7eb0c3607b862.pack
+./galaxy-eib/tools/tassel/output/*

@@ -6,5 +6,6 @@
     "cytoscape" : [ "viewer" ],
     "pv"        : [ "viewer" ],
     "benfred"   : [ "venn" ],
-    "ngl"       : [ "viewer" ]
+    "ngl"       : [ "viewer" ],
+    "myviz"     : ["pdb"]
 }

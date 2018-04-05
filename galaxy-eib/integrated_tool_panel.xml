@@ -92,8 +92,8 @@
     <section id="VCF_intersect" name="VCF intersect" version="">
         <tool id="vcf_intersect" />
     </section>
-    <label id="gobii-eib" text="GOBII-EiB" version="" />
-    <section id="eib-tools" name="Excellence in Breeding Tools " version="">
+    <label id="eib" text="Excellence in Breeding" version="" />
+    <section id="eib-tools" name="Hackathon Tools " version="">
         <label id="gh1" text="GH1: R Tools" version="" />
         <tool id="Sum2Ints" />
         <tool id="getARM" />
@@ -125,16 +125,36 @@
         <label id="gh4" text="GH4: Finding Closest Genotype and Format Conversion Tools" version="" />
         <tool id="plink:bed-to-ped" />
         <tool id="plink:bed-to-vcf" />
+        <tool id="tassel-hapmap2plink" />
+        <tool id="tassel-hapmap2vcf" />
         <label id="gh5" text="GH5: Finding Duplicates" version="" />
         <tool id="FindDuplicates" />
     </section>
+    <label id="gobii-htpg" text="GOBII-HTPG" version="" />
     <section id="htpg-tools" name="HTPG Tools" version="">
         <tool id="Intertek-Fj-converter" />
         <tool id="excel-txt_extractor" />
     </section>
-    <section id="bglr-tools" name="BGLR Tools" version="">
+    <section id="gobii-tools" name="GOBII Tools" version="">
         <tool id="bglr:encode" />
         <tool id="bglr:validate" />
         <tool id="Bayessian_Generalized_Linear_Regression" />
+    </section>
+    <section id="gwas-tools" name="GWAS" version="">
+        <tool id="tassel-calc-kinship" />
+        <tool id="tassel-calc-pca" />
+        <tool id="tassel-compute-glm-1" />
+        <tool id="tassel-compute-mlm" />
+    </section>
+    <label id="from_toolshed" text="Tools from Toolshed" version="" />
+    <section id="rave" name="RAVE" version="">
+    </section>
+    <section id="sniplay" name="SNIPLAY" version="">
+    </section>
+    <section id="blast+" name="BLAST+" version="">
+    </section>
+    <section id="bcftools" name="bcftools" version="">
+    </section>
+    <section id="vcftools" name="VCFTOOLS" version="">
     </section>
 </toolbox>

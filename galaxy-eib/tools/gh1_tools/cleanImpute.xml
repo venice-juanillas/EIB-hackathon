@@ -1,5 +1,8 @@
 <tool id="cleanImpute" name="Clean Impute" version="1.0">
   <description>cleanImpute</description>
+  <requirements>
+
+  </requirements>
   <command interpreter="Rscript --vanilla">cleanImpute.R
        #if str($fileIn).strip() != "":
           --fileIn="$fileIn"

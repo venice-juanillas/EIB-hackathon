@@ -2,6 +2,34 @@
 <toolbox monitor="true">
   <section id="getext" name="Get Data">
     <tool file="data_source/upload.xml" />
+<!--    <tool file="data_source/ucsc_tablebrowser.xml" />
+    <tool file="data_source/ucsc_tablebrowser_test.xml" />
+    <tool file="data_source/ucsc_tablebrowser_archaea.xml" />
+    <tool file="data_source/ebi_sra.xml" />
+    <tool file="data_source/microbial_import.xml" />
+    <tool file="data_source/biomart.xml" />
+    <tool file="data_source/cbi_rice_mart.xml" />
+    <tool file="data_source/gramene_mart.xml" />
+    <tool file="data_source/fly_modencode.xml" />
+    <tool file="data_source/flymine.xml" />
+    <tool file="data_source/flymine_test.xml" />
+    <tool file="data_source/modmine.xml" />
+    <tool file="data_source/mousemine.xml" />
+    <tool file="data_source/ratmine.xml" />
+    <tool file="data_source/yeastmine.xml" />
+    <tool file="data_source/metabolicmine.xml" />
+    <tool file="data_source/worm_modencode.xml" />
+    <tool file="data_source/wormbase.xml" />
+    <tool file="data_source/wormbase_test.xml" />
+    <tool file="data_source/zebrafishmine.xml" />
+    <tool file="data_source/eupathdb.xml" />
+    <tool file="data_source/hbvar.xml" />
+    <tool file="genomespace/genomespace_importer.xml" />
+    <tool file="genomespace/genomespace_push.xml" />
+  </section>
+  <section id="send" name="Send Data">
+    <tool file="genomespace/genomespace_exporter.xml" />
+-->
   </section>
   <section id="liftOver" name="Lift-Over">
     <tool file="extract/liftOver_wrapper.xml" />
@@ -50,6 +78,26 @@
     <tool file="filters/compare.xml" />
     <tool file="stats/grouping.xml" />
   </section>
+<!--
+  <section id="convert" name="Convert Formats">
+    <tool file="filters/axt_to_concat_fasta.xml" />
+    <tool file="filters/axt_to_fasta.xml" />
+    <tool file="filters/axt_to_lav.xml" />
+    <tool file="filters/bed2gff.xml" />
+    <tool file="filters/gff2bed.xml" />
+    <tool file="filters/lav_to_bed.xml" />
+    <tool file="maf/maf_to_bed.xml" />
+    <tool file="maf/maf_to_interval.xml" />
+    <tool file="maf/maf_to_fasta.xml" />
+    <tool file="filters/wiggle_to_simple.xml" />
+    <tool file="filters/sff_extractor.xml" />
+    <tool file="filters/gtf2bedgraph.xml" />
+    <tool file="filters/wig_to_bigwig.xml" />
+    <tool file="filters/bed_to_bigbed.xml" />
+    <tool file="tassel-4.3.7/vcf2hapmap.xml" /> 
+    <tool file="tassel-4.3.7/hapmap2vcf.xml" /> 
+  </section>
+-->
   <section id="features" name="Extract Features">
     <tool file="filters/ucsc_gene_bed_to_exon_bed.xml" />
   </section>
@@ -82,8 +130,8 @@
   <section id="VCF_intersect" name="VCF intersect">
     <tool file="vcf_intersect/VCFintersect.xml" />
   </section>
- <label id="gobii-eib" text="GOBII-EiB" />
- <section id="eib-tools" name="Excellence in Breeding Tools ">
+ <label id="eib" text="Excellence in Breeding" />
+ <section id="eib-tools" name="Hackathon Tools ">
     <label id="gh1" text="GH1: R Tools"/>
     <tool file="gh1_tools/HelloWorldR.xml"/>
     <tool file="tools/HelloWorldCpp.xml"/>
@@ -108,40 +156,48 @@
 <!--    <tool file="gh1_tools/FindDuplicates.xml"/> -->
 
     <label id="gh2" text="GH2: Imputation Tools"/>
-    <tool file="gh2_tools/beagle_tool/beagle.xml" />
-    <tool file="gh2_tools/impute_tool/impute.xml" />
-    <tool file="gh2_tools/hapmap_to_vcf_tool/hapmap_to_vcf.xml" />
-    <tool file="gh2_tools/vcf_to_hapmap_tool/vcf_to_hapmap.xml" />
-    <tool file="gh2_tools/makeNPUTEinput/makeNPUTEinput.xml" />
-    <tool file="gh2_tools/npute/NPUTE.xml" />
-    <tool file="gh2_tools/makeHMPfromNPUTEoutput/makeHMPfromNPUTEoutput.xml"/>
-    <tool file="gh2_tools/validation/imputeValidation.xml"/>
-    <tool file="gh2_tools/simulate_missing/set_random_missing.xml" />
+    <tool file="problem2_tools/beagle_tool/beagle.xml" />
+    <tool file="problem2_tools/impute_tool/impute.xml" />
+    <tool file="problem2_tools/hapmap_to_vcf_tool/hapmap_to_vcf.xml" />
+    <tool file="problem2_tools/vcf_to_hapmap_tool/vcf_to_hapmap.xml" />
+    <tool file="problem2_tools/makeNPUTEinput/makeNPUTEinput.xml" />
+    <tool file="problem2_tools/npute/NPUTE.xml" />
+    <tool file="problem2_tools/makeHMPfromNPUTEoutput/makeHMPfromNPUTEoutput.xml"/>
+    <tool file="problem2_tools/validation/imputeValidation.xml"/>
+    <tool file="problem2_tools/simulate_missing/set_random_missing.xml" />
 
     <label id="gh3" text="GH3: Purity"/> 
-    <tool file="gh3_tools/sampleSNPs/sampleSNPs.xml" />
-    <tool file="gh3_tools/sampleLD/sampleLD.xml" />
-    <tool file="gh3_tools/purity/purity.xml" />
-    <tool file="gh3_tools/purity/purity_beta.xml" />
-    <tool file="gh3_tools/plink_ld_prune/plink_ld_prune.xml" />
-    <tool file="gh3_tools/plink_vcf2bed/plink_vcf2bed.xml" />
+    <tool file="hackathon_problem3/sampleSNPs/sampleSNPs.xml" />
+    <tool file="hackathon_problem3/sampleLD/sampleLD.xml" />
+    <tool file="hackathon_problem3/purity/purity.xml" />
+    <tool file="hackathon_problem3/purity/purity_beta.xml" />
+    <tool file="hackathon_problem3/plink_ld_prune/plink_ld_prune.xml" />
+    <tool file="hackathon_problem3/plink_vcf2bed/plink_vcf2bed.xml" />
     <label id="gh4" text="GH4: Finding Closest Genotype and Format Conversion Tools"/> 
-    <tool file="gh4_tools/binary2ped.xml" />
-    <tool file="gh4_tools/binary2vcf.xml" />
-    <tool file="gh4_tools/hapmap2plink.xml" />
-    <tool file="gh4_tools/hapmap2vcf.xml" />
+    <tool file="plink_conversion/binary2ped.xml" />
+    <tool file="plink_conversion/binary2vcf.xml" />
+    <tool file="tassel_conversion/hapmap2plink.xml" />
+    <tool file="tassel_conversion/hapmap2vcf.xml" />
 
     <label id="gh5" text="GH5: Finding Duplicates"/>
-    <tool file="gh5_tools/FindDuplicates.xml" />
+    <tool file="ts_tools/FindDuplicates.xml" />
   </section>
+  <label id="gobii-htpg" text="GOBII-HTPG" />
   <section id="htpg-tools" name="HTPG Tools">
-    <tool file="intertek-Fj_v1/Intertek-Fj_converter.xml"/>
-    <tool file="excel-txt_extractor/excel-txt_extractor.xml"/>
+   <tool file="intertek-Fj_v1/Intertek-Fj_converter.xml"/>
+   <tool file="excel-txt_extractor/excel-txt_extractor.xml"/>
   </section>
-  <section id="bglr-tools" name="BGLR Tools">
-    <tool file="BGLR_Galaxy/bglr_encode.xml"/>
-    <tool file="BGLR_Galaxy/bglr_validate.xml"/>
-    <tool file="gh2_tools/bglr_tool/bglr.xml"/>
+  <section id="gobii-tools" name="GOBII Tools">
+   <tool file="BGLR_Galaxy/bglr_encode.xml"/>
+   <tool file="BGLR_Galaxy/bglr_validate.xml"/>
+   <tool file="BGLR_Galaxy/bglr.xml"/>
+  </section>
+  <section id="gwas-tools" name="GWAS">
+   <tool file="tassel5/sortGenotypeData.xml"/>
+   <tool file="tassel5/calculateKinship.xml" />
+   <tool file="tassel5/calculatePCA.xml" />
+   <tool file="tassel5/runGLM.xml"/>
+   <tool file="tassel5/runMLM.xml"/>
   </section>
 
 </toolbox>
